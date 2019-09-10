@@ -21,6 +21,7 @@ class NewUserController extends AbstractController
         $user = new UserCredentials();
         $user->setName('Guru');
         $user->setEmail('gpmohanty@gmail.com');
+        // test git
         $user->setPassword('isha@123');
 
         // tell Doctrine you want to (eventually) save the User (no queries yet)
